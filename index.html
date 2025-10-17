@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isyara Lisan - Penerjemah Suara ke Isyarat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Isyara Lisan 💬🖐️</h1>
+        <p>Tekan tombol rekam, ucapkan kata kunci sederhana (misalnya "Halo", "Terima kasih", "Makan"), dan lihat isyaratnya!</p>
+        
+        <button id="startButton">🎤 Mulai Bicara</button>
+        
+        <div class="output-area">
+            <h2>Kata yang Terdeteksi:</h2>
+            <p id="resultText" class="text-output">...</p>
+            
+            <div id="signLanguageArea">
+                <img id="signImage" src="" alt="Isyarat Bahasa">
+            </div>
+            
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
